@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sanya Ahuja</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #0e0f1a;
+      color: #f1f5f9;
+      line-height: 1.6;
+    }
+
+    a {
+      color: #38bdf8;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: #22d3ee;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1e3a8a, #0f172a);
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: #ffffff;
+      font-weight: 900;
+    }
+
+    header p {
+      color: #cbd5e1;
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 2rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #facc15;
+      border-bottom: 2px solid #475569;
+      padding-bottom: 0.3rem;
+    }
+
+    .project-card {
+      background-color: #1e293b;
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 0 15px rgba(0,0,0,0.3);
+      transition: transform 0.3s ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 20px rgba(59,130,246,0.4);
+    }
+
+    .project-card h3 {
+      color: #38bdf8;
+      margin-bottom: 0.5rem;
+    }
+
+    ul {
+      padding-left: 1.5rem;
+      list-style-type: square;
+      color: #94a3b8;
+    }
+
+    .skills p {
+      margin-bottom: 0.5rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: #1e293b;
+      color: #64748b;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Sanya Ahuja</h1>
+    <p>Cybersecurity Specialist • Full-Stack Developer • Ethical Hacker</p>
+    <p>
+      <a href="mailto:ssanya0905work@gmail.com">ssanya0905work@gmail.com</a> |
+      <a href="https://github.com/sanyaahuja-1" target="_blank">GitHub</a> |
+      <a href="https://linkedin.com/in/sanyaaahuja" target="_blank">LinkedIn</a>
+    </p>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>About Me</h2>
+      <p>I am a third-year Computer Science student specializing in Cybersecurity. I have hands-on experience in penetration testing, web security, and full-stack development. My goal is to build secure and scalable systems while contributing to open-source security research.</p>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+
+      <div class="project-card">
+        <h3>Secure Bug Bounty Management Platform</h3>
+        <ul>
+          <li>Developed a full-stack platform using MERN and Golang microservices.</li>
+          <li>Implemented JWT, RBAC, and secure vulnerability reporting workflow.</li>
+          <li>Containerized with Docker and deployed on AWS via CI/CD pipelines.</li>
+        </ul>
+      </div>
+
+      <div class="project-card">
+        <h3>AI Model Deployment Platform</h3>
+        <ul>
+          <li>Built a FastAPI/Flask based system to serve PyTorch models securely.</li>
+          <li>Secured endpoints, handled user access, and logged API usage patterns.</li>
+          <li>Deployed on AWS with Docker and HTTPS enforcement.</li>
+        </ul>
+      </div>
+
+      <div class="project-card">
+        <h3>XSS Vulnerability Analyzer Extension</h3>
+        <ul>
+          <li>Built a browser extension that scans and flags reflected/stored XSS.</li>
+          <li>Injected test payloads and analyzed DOM for unsanitized responses.</li>
+          <li>Provided UI feedback and developer-friendly recommendations.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="skills">
+      <h2>Skills</h2>
+      <p><strong>Languages:</strong> Python, JavaScript, Java, C++, SQL</p>
+      <p><strong>Tools:</strong> Burp Suite, Nmap, Wireshark, Git, Docker</p>
+      <p><strong>Frameworks:</strong> MERN Stack, FastAPI, Flask, JWT</p>
+      <p><strong>Cloud/DevOps:</strong> AWS (EC2, S3), Docker, CI/CD</p>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+      <p><strong>Software Developer & Security Intern – Sukashee Infra LLP</strong></p>
+      <ul>
+        <li>Worked on internal security tools and web applications.</li>
+        <li>Performed vulnerability assessments and code audits.</li>
+        <li>Collaborated on securing backend services with authentication and logging.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <p>B.Tech in Computer Science and Engineering (2022–2026)</p>
+      <p>Focused on Cybersecurity, Network Security, and Secure Software Development.</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:ssanya0905work@gmail.com">ssanya0905work@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/sanyaahuja-1">sanyaahuja-1 github</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/sanyaaahuja">sanyaaahuja</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Sanya Ahuja. Built with ❤️</p>
+  </footer>
+</body>
+</html>
